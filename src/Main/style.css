@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#main{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.css-o69gx8-MuiCardMedia-root {
+    width: 50%!important;
+    object-fit: contain!important;
+    height: 70px;
+}
+.css-14cyfy1-MuiPaper-root-MuiCard-root {
+    padding: 20px 10px;
+}
+.weather__wrap{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.forecast::-webkit-scrollbar {
+    background-color: #9e9eff;
+}
+.forecast::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+.forecast::-webkit-scrollbar-thumb {
+    background-color: #001fff;
+    outline: 1px solid darkblue;
+}
+.weather__wrap p{
+    font-size: 30px;
+    margin: 0 20px;
+}
+.form{
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+    background-color: rgba(256,256,256,0.7);
+    margin-bottom: 10px;
+}
+.form button{
+    margin-left: 45px;
+    background-color: white;
+}
+.updated{
+    margin-top: 40px!important;
+}
+.forecast{
+
+    display: flex;
+    overflow-x: scroll;
+}
+.forecast div:first-child{
+    min-width: 170px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.forecast__box{
+    position: relative;
+    text-align: center;
+    padding: 5px;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.hour-forecast__wrap{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 120px;
+}
+.forecast__box p,h6{
+    font-size: 15px;
+    margin-bottom: 5px;
+}
